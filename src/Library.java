@@ -6,7 +6,6 @@ public class Library {
     public static void main(String[] args) {
         Library sampleLibrary = new Library();
         Book bradfordBook = new Book(300, "Magical Realism", false);
-        System.out.println();
         bradfordBook.printInfo();
         Book myBook = new Book(451, "Dystopian", true);
         myBook.printInfo();
@@ -23,6 +22,8 @@ public class Library {
         randomBooks();
         authorOfTheDay("Toni Morrison");
         countBooks();
+        System.out.println();
+        deweysChoice();
     }
 
     public void randomBooks(){
